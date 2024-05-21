@@ -9,7 +9,7 @@ gcloud container clusters create \
   --cluster-version latest \
   crossplane-demo
 
-'''sh
+'''
 
 ### Install Crossplane
 
