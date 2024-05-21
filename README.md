@@ -1,6 +1,7 @@
- ==================
+
 ### Install K’8 Cluster 
-'''sh
+
+```sh
 gcloud container clusters create \
   --machine-type n1-standard-2 \
   --num-nodes 2 \
@@ -8,8 +9,8 @@ gcloud container clusters create \
   --no-enable-ip-alias \
   --cluster-version latest \
   crossplane-demo
-
-'''
+```  
+  
 
 ### Install Crossplane
 
